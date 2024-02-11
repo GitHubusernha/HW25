@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Tabs</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        $(function() {
+            $("#tabs").tabs();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tab-1">Links</a></li>
+            <li><a href="#tab-2">Midden</a></li>
+            <li><a href="#tab-3">Rechts</a></li>
+        </ul>
+
+        <div id="tab-1">
+            <p>
+                <ul>
+                    <li>50Plus.</li>
+                    <li>BIJ1.</li>
+                    <li>ChristenUnie (CU)</li>
+                    <li>DENK.</li>
+                    <li>GroenLinks (GL)</li>
+                    <li>Partij van de Arbeid (PvdA)</li>
+                    <li>Partij voor de Dieren (PvdD)</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="tab-2">
+            <p>
+                <ul>
+                    <li>CDA</li>
+                    <li>D66</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="tab-3">
+            <p>
+                <ul>
+                    <li>Belang van Nederland (BVNL)</li>
+                    <li>BoerBurgerBeweging (BBB)</li>
+                    <li>Christen Democratisch Appel (CDA)</li>
+                    <li>Forum voor Democratie (FVD)</li>
+                    <li>Juiste Antwoord 21 (JA21)</li>
+                    <li>Partij voor de Vrijheid (PVV)</li>
+                    <li>Staatkundig Gereformeerde Partij (SGP)</li>
+                    <li>Volkspartij voor Vrijheid en Democratie (VVD)</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
